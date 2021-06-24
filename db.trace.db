@@ -1,0 +1,4 @@
+2021-06-19 19:51:24 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Valeur trop longue pour la colonne "DESCRIPTION VARCHAR(255)": "'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Gra... (663)"
+Value too long for column "DESCRIPTION VARCHAR(255)": "'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Gra... (663)"; SQL statement:
+insert into product (category_id, description, image_name, name, price, weight, id) values (?, ?, ?, ?, ?, ?, ?) [22001-200]
